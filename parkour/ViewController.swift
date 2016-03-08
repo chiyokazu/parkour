@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         if let build:UIImage? = UIImage(named: "building01.png") {
-            var b:Obstacle = Obstacle(x:Float(UIScreen.mainScreen().bounds.width)/2,y:Float(UIScreen.mainScreen().bounds.height)-100, h:100, w:50, img:build!)
+            var b:Obstacle = Obstacle(x:Float(UIScreen.mainScreen().bounds.width)/2,y:Float(UIScreen.mainScreen().bounds.height)-200, h:200, w:100, img:build!)
             self.view.addSubview(b.imgView)
         }
     }
